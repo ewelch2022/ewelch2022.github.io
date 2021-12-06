@@ -1,0 +1,148 @@
+/*In the body tag, we set styles for the whole web page. Usually we use this space for setting the base fonts, background colors,  */
+body {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* this wrapper let's us move the content away from the edges of the browser. */
+#wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+/* Let's style the header */
+header {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+
+div imgcaption {
+    font-size: 100px;
+    float: left;
+    position: absolute;
+    display: block;
+    top: 0;
+    padding: 0.5em;
+    }
+
+div {
+        position: relative;
+        float: center;
+        width: 100%;
+    }
+
+div img {
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+
+
+/* Now let's create two columns for the main content */
+main {
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+nav {
+    background-color:rgb(88, 139, 101);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 2vw;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+}
+
+nav ul li {
+    flex: 1;
+    font-size: 20px;
+}
+
+ol {
+    line-height: 30px;
+}
+
+ul {
+    line-height: 30px;
+}
+
+aside {
+    text-align:center;display:block; 
+}
+
+footer {
+    text-align: right;
+}
+  
+aside h2 {
+    font-size: 50px;
+}
+
+article h2 {
+    font-size: 50px;
+}
+
+article h3 {
+    font-size: 25px;
+}
+
+article ul p {
+    font-size: 18px;
+}
+
+article ol li {
+    font-size: 18px;
+}
+
